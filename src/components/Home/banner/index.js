@@ -1,22 +1,16 @@
 /*
  * @Author: your name
  * @Date: 2020-09-22 19:00:57
- * @LastEditTime: 2020-09-22 21:26:58
+ * @LastEditTime: 2020-09-23 15:34:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Home\banner\index.js
  */
-import React, { useEffect, useState } from "react";
+import React from "react";
 import style from "./index.module.scss";
+import { connect } from "react-redux";
 
-export default function Home() {
-  const [scrollValue, setScrollValue] = useState(0);
-  const scrollHandler = () => {
-    setScrollValue(window.scrollY);
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", scrollHandler);
-  }, []);
+function Banner(props) {
   return (
     <div className="container-fluid">
       <div className={style.banner}>
@@ -24,7 +18,7 @@ export default function Home() {
           id={style.welcome}
           className="text-center"
           style={{
-            paddingBottom: scrollValue * 2,
+            paddingBottom: props.scrollValue.scrollPosition * 2,
           }}
         >
           Welcome To My Website
@@ -45,3 +39,9 @@ export default function Home() {
     </div>
   );
 }
+const mapStateToProps = (state) => {
+  return {
+    scrollValue: state.scrollPosition,
+  };
+};
+export default connect(mapStateToProps)(Banner);

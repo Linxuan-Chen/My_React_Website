@@ -1,21 +1,35 @@
-/*
- * @Author: your name
- * @Date: 2020-09-22 18:34:21
- * @LastEditTime: 2020-09-22 21:00:25
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \repository\My_React_Website\src\App.js
- */
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { connect } from "react-redux";
+import { HashRouter } from "react-router-dom";
 import "./App.scss";
-import Home from "./components/Home";
+import NavBar from "./components/Common/NavBar";
+import Routes from "./router/Routes";
 
-function App() {
+function App(props) {
+  const [isNavBarShow, setIsNavBarShow] = useState(true);
+  useEffect(() => {
+    props.scrollPosition.scrollPosition >= 600
+      ? setIsNavBarShow(false)
+      : setIsNavBarShow(true);
+  }, [props.scrollPosition.scrollPosition]);
   return (
-    <div className="App">
-      <Home />
+    <div className="App" id="anchor">
+      {isNavBarShow ? (
+        <NavBar displayMode="top" />
+      ) : (
+        <NavBar displayMode="side" />
+      )}
+      <HashRouter>
+        <Routes />
+      </HashRouter>
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    scrollPosition: state.scrollPosition,
+  };
+};
+
+export default connect(mapStateToProps)(App);

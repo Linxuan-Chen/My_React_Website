@@ -1,0 +1,14 @@
+#nav {
+    position: fixed;
+    z-index : 1000;
+    opacity : 0.9;
+}
+
+#side_bar {
+    position       : fixed;
+    z-index        : 1000;
+    color          : red;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+}
