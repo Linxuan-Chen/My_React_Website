@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-22 19:00:57
- * @LastEditTime: 2020-09-22 20:54:39
+ * @LastEditTime: 2020-09-22 21:26:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Home\banner\index.js
@@ -18,10 +18,11 @@ export default function Home() {
     window.addEventListener("scroll", scrollHandler);
   }, []);
   return (
-    <div>
+    <div className="container-fluid">
       <div className={style.banner}>
         <h2
           id={style.welcome}
+          className="text-center"
           style={{
             paddingBottom: scrollValue * 2,
           }}
