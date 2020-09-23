@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d9335f9.chunk.css",
+    "main.js": "/static/js/main.b66f2f2a.chunk.js",
+    "main.js.map": "/static/js/main.b66f2f2a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.f96194c3.chunk.js": "/static/js/2.f96194c3.chunk.js",
+    "static/js/2.f96194c3.chunk.js.map": "/static/js/2.f96194c3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3f8ef35a273a8d411b3ab3bc486ef958.js": "/precache-manifest.3f8ef35a273a8d411b3ab3bc486ef958.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.7d9335f9.chunk.css.map": "/static/css/main.7d9335f9.chunk.css.map",
+    "static/js/2.f96194c3.chunk.js.LICENSE.txt": "/static/js/2.f96194c3.chunk.js.LICENSE.txt",
+    "static/media/index.module.scss": "/static/media/Island.cdb0678e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3374ac37.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.f96194c3.chunk.js",
+    "static/css/main.7d9335f9.chunk.css",
+    "static/js/main.b66f2f2a.chunk.js"
+  ]
+}
