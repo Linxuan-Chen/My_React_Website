@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-23 10:52:07
- * @LastEditTime: 2020-09-23 18:25:24
+ * @LastEditTime: 2020-09-25 19:21:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\NavBar\index.js
@@ -48,11 +48,11 @@ function NavBar(props) {
                 color: "red !important",
               }}
             >
-              <Navbar.Brand href="#home">Linxuan Chen</Navbar.Brand>
+              <Navbar.Brand href="#">Linxuan Chen</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="w-100 d-flex justify-content-around">
-                  <Nav.Link href="#home">HOME</Nav.Link>
+                  <Nav.Link href="#/">HOME</Nav.Link>
                   <Nav.Link href="#education">EDUCATION</Nav.Link>
                   <Nav.Link href="#experience">WORK EXPERIENCES</Nav.Link>
                   <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
@@ -65,7 +65,7 @@ function NavBar(props) {
       ) : (
           <div>
             <Router>
-              <div id={style.nav} className="container-fluid d-sm-none d-block">
+              <div className={style.nav + " container-fluid d-sm-none d-block"}>
                 <Navbar
                   bg="light"
                   expand="lg"
@@ -73,11 +73,11 @@ function NavBar(props) {
                     color: "red !important",
                   }}
                 >
-                  <Navbar.Brand href="#home">Linxuan Chen</Navbar.Brand>
+                  <Navbar.Brand href="#">Linxuan Chen</Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="w-100 d-flex justify-content-around">
-                      <Nav.Link href="#home">HOME</Nav.Link>
+                      <Nav.Link href="#">HOME</Nav.Link>
                       <Nav.Link href="#education">EDUCATION</Nav.Link>
                       <Nav.Link href="#experience">WORK EXPERIENCES</Nav.Link>
                       <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
@@ -89,14 +89,13 @@ function NavBar(props) {
             </Router>
             <Router>
               <div
-                id={style.side_bar}
-                className="d-sm-flex d-none flex-column justify-content-around h-50 mt-1"
+                className={style.side_bar + " d-sm-flex d-none h-50 mt-1 text-center shadow-lg"}
               >
-                <NavLink to="/home">Home</NavLink>
-                <NavLink to="/education">education</NavLink>
-                <NavLink to="/experience">experience</NavLink>
-                <NavLink to="/portfolio">portfolio</NavLink>
-                <NavLink to="/contact">contact</NavLink>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/education">Education</NavLink>
+                <NavLink to="/experience">Experience</NavLink>
+                <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
                 <button onClick={() => anchorClickHandler("anchor")}>Back To Top</button>
               </div>
             </Router>
@@ -114,22 +113,3 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(null, mapDispatchToProps)(NavBar);
-
-// (
-//     <div
-//       className="container-fluid"
-//       style={{
-//         position: "fixed",
-//         zIndex: 1000,
-//       }}
-//     >
-//       <nav className={style.nav}>
-//         <ul className="text-secondary">
-//           <li>HOME</li>
-//           <li>EDUCATION</li>
-//           <li>WORK EXPERIENCE</li>
-//           <li>CONTACT</li>
-//         </ul>
-//       </nav>
-//     </div>
-//   )

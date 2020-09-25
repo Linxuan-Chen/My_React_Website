@@ -33,7 +33,7 @@
         align-items        : center;
 
 
-        #welcome {
+        .welcome {
             font-size: 4rem;
             color    : #fff;
             max-width: 100%;
@@ -112,10 +112,14 @@
         align-items        : center;
 
 
-        #welcome {
-            font-size: 8rem;
-            color    : #fff;
-            max-width: 100%;
+        .welcome {
+            font-size              : 8rem;
+            // color    : #fff;
+            background-image       : linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip        : text;
+            max-width              : 100%;
         }
 
         .clouds {

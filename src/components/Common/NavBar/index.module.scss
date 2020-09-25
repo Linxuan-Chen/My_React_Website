@@ -1,14 +1,37 @@
-#nav {
+.nav {
     position: fixed;
     z-index : 1000;
     opacity : 0.9;
 }
 
-#side_bar {
-    position       : fixed;
-    z-index        : 1000;
-    color          : red;
-    display        : flex;
-    flex-direction : column;
-    justify-content: space-around;
+.side_bar {
+    position        : fixed;
+    z-index         : 1000;
+    color           : red;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-around;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    top             : 25vh;
+    left            : 10px;
+
+    button {
+        border          : none;
+        background-color: transparent;
+        color           : #808080;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color          : #808080;
+
+        &:hover {
+            text-decoration: none;
+            color          : #ffffff;
+        }
+    }
 }

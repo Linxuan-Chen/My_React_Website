@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-22 19:00:57
- * @LastEditTime: 2020-09-23 15:34:19
+ * @LastEditTime: 2020-09-25 19:24:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Home\banner\index.js
@@ -15,8 +15,7 @@ function Banner(props) {
     <div className="container-fluid">
       <div className={style.banner}>
         <h2
-          id={style.welcome}
-          className="text-center"
+          className={style.welcome + " text-center text-danger"}
           style={{
             paddingBottom: props.scrollValue.scrollPosition * 2,
           }}
