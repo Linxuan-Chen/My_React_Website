@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-22 19:00:57
- * @LastEditTime: 2020-09-25 19:24:21
+ * @LastEditTime: 2020-09-26 11:42:59
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Home\banner\index.js

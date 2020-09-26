@@ -1,0 +1,43 @@
+.header {
+    font-size: 3rem;
+}
+
+.background {
+    background-image : url(./mountain.jpg);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    min-height       : 100vh;
+    color            : #ffffff;
+
+    .mask {
+        width           : 100%;
+        height          : 100%;
+        position        : fixed;
+        left            : 0;
+        top             : 0;
+        z-index         : 1;
+        background-color: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    .wrapper {
+        position: relative;
+        z-index : 2;
+    }
+
+    .line {
+        height          : 100%;
+        width           : 2px;
+        background-color: green;
+        z-index         : 2;
+        margin          : 0 auto;
+    }
+}
+
+.nav_link {
+    color: #ffffff;
+
+    &:hover {
+        color          : gray;
+        text-decoration: none;
+    }
+}

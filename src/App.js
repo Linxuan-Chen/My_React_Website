@@ -1,6 +1,14 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-22 18:34:21
+ * @LastEditTime: 2020-09-26 07:49:31
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \repository\My_React_Website\src\App.js
+ */
 import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import NavBar from "./components/Common/NavBar";
 import Routes from "./router/Routes";
@@ -17,11 +25,11 @@ function App(props) {
       {isNavBarShow ? (
         <NavBar displayMode="top" />
       ) : (
-        <NavBar displayMode="side" />
-      )}
-      <HashRouter>
+          <NavBar displayMode="side" />
+        )}
+      <BrowserRouter>
         <Routes />
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }

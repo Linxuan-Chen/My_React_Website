@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Banner />
       <div className={style.background}>
-        <section className={style.introduction + " container"}>
+        <section className={style.introduction + " container shadow-lg"}>
           <h2 className="text-danger">HI</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odio

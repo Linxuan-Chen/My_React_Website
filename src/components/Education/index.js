@@ -4,13 +4,15 @@ import style from "./index.module.scss";
 export default function Education() {
   return (
     <div className={style.background}>
-      <div className="container">
+      <div className="container-fluid">
         <header className={style.header + " text-center pt-5"}>
           Education
         </header>
+      </div>
+      <div className="container">
         {/* Concordia university media starts */}
-        <article>
-          <div className={style.concordia + " media mt-3"}>
+        <article className={style.articles}>
+          <div className={style.media_img + " media mt-3"}>
             <img
               className="align-self-center"
               src="assets/education/concordia_logo.png"
@@ -78,8 +80,9 @@ export default function Education() {
             </p>
           </section>
         </article>
-        <article>
-          <div className={style.concordia + " media mt-3"}>
+        <div className={style.dividing_line}></div>
+        <article className={style.articles}>
+          <div className={style.media_img + " media mt-3"}>
             <img
               className="align-self-center"
               src="assets/education/NUST.png"
