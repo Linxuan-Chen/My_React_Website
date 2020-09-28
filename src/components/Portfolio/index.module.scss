@@ -1,54 +1,114 @@
-.wrapper {
-    background-image   : url(./background.jpg);
-    background-position: center;
-    background-repeat  : no-repeat;
-    background-size    : cover;
+@media screen and (min-width: 400px) {
+    .wrapper {
+        background-image   : url(./background.jpg);
+        background-position: center;
+        background-repeat  : no-repeat;
+        background-size    : cover;
 
-    .innerWrapper {
-        height          : 100%;
-        background-color: rgba($color: #ffffff, $alpha: 0.1);
-        color           : white;
-    }
-
-    header {
-        font-size              : 4rem;
-        padding-top            : 15%;
-        padding-bottom         : 5%;
-        background-image       : linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        color                  : transparent;
-        background-clip        : text;
-    }
-
-    a {
-        text-decoration: none;
-        color          : rgb(252, 179, 71);
-
-        &:hover {
-            color: #ffffff;
-        }
-    }
-
-    .img {
-        &:hover {
-            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)
-        }
-    }
-
-    .carousel {
-        padding-bottom: 5%;
-
-        img {
-            width : 50%;
-            height: 40vh;
+        .innerWrapper {
+            height          : 100%;
+            background-color: rgba($color: #ffffff, $alpha: 0.1);
+            color           : white;
         }
 
-    }
+        header {
+            font-size              : 4rem;
+            padding-top            : 15%;
+            padding-bottom         : 5%;
+            background-image       : linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            color                  : transparent;
+            background-clip        : text;
+        }
 
-    .last_slide {
-        display        : flex;
-        justify-content: center;
-        align-items    : center;
+        a {
+            text-decoration: none;
+            color          : rgb(252, 179, 71);
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+
+        .img {
+            &:hover {
+                box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)
+            }
+        }
+
+        .carousel {
+            padding-bottom: 5%;
+
+            img {
+                width : 50%;
+                height: 40vh;
+            }
+
+        }
+
+        .last_slide {
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        background-image   : url(./background.jpg);
+        background-position: center;
+        background-repeat  : no-repeat;
+        background-size    : cover;
+
+        .innerWrapper {
+            height          : 100%;
+            background-color: rgba($color: #ffffff, $alpha: 0.1);
+            color           : white;
+        }
+
+        header {
+            font-size              : 4rem;
+            padding-top            : 15%;
+            padding-bottom         : 5%;
+            background-image       : linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            color                  : transparent;
+            background-clip        : text;
+        }
+
+        a {
+            text-decoration: none;
+            color          : rgb(252, 179, 71);
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+
+        .img {
+            &:hover {
+                box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)
+            }
+        }
+
+        .carousel {
+            padding-bottom: 5%;
+
+            img {
+                max-width : 100px;
+                max-height: 75px;
+            }
+
+        }
+
+        .last_slide {
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+            padding-top    : 25%;
+        }
     }
 }

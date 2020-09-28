@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-27 17:21:28
+ * @LastEditTime: 2020-09-27 21:39:27
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \repository\My_React_Website\src\components\Portfolio\index.js
+ */
 import React, { useEffect } from "react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";

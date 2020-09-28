@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-23 16:10:35
+ * @LastEditTime: 2020-09-28 13:26:49
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \repository\My_React_Website\src\components\Experience\index.js
+ */
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import style from "./index.module.scss";
@@ -84,7 +92,7 @@ function Experience(props) {
             <div className="col-5 text-center">
               <section>
                 <h4>time</h4>
-                <h3>ThoughtWorks</h3>
+                <h3>Thought Works</h3>
                 <h5>Shanghai, China</h5>
                 <p>Maybe we can reach the summit together!</p>
               </section>

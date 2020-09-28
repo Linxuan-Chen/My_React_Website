@@ -1,0 +1,27 @@
+    .header {
+        font-size       : 4rem;
+        border-bottom   : 3px solid black;
+        background-color: #DCD9D4;
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    }
+
+    .media_img {
+        img {
+            max-width: 100px;
+        }
+    }
+
+    .dividing_line {
+        width           : 100%;
+        height          : 2px;
+        margin-top      : 15px;
+        background-color: gray;
+    }
+
+    .articles {
+        background-color: #ffffff;
+    }
+
+    .background {
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    }
