@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./index.module.scss";
 
 export default function Education() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={style.background}>
       <div className="container-fluid">
