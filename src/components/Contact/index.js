@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-27 17:23:34
- * @LastEditTime: 2020-09-28 14:17:46
+ * @LastEditTime: 2020-09-28 14:42:13
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Contact\index.js
@@ -92,7 +92,7 @@ export default function Contact() {
                       href="https://github.com/Linxuan-Chen"
                       className="text-info"
                     >
-                      https:// github.com/ Linxuan-Chen
+                      https://github.com/ Linxuan-Chen
                     </a>
                   </h5>
                 </div>
@@ -149,7 +149,10 @@ export default function Contact() {
                   <h2>Resume</h2>
                 </div>
                 <div className="col-12">
-                  <a href="#" className="text-info">
+                  <a
+                    href="https://github.com/Linxuan-Chen/My_React_Website/raw/gh-pages/assets/resume/RESUME.pdf"
+                    className="text-info"
+                  >
                     <h5>Click Here To Download My Resume!</h5>
                   </a>
                 </div>

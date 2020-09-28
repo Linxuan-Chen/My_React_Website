@@ -1,5 +1,6 @@
 @media screen and (min-width: 400px) {
     .wrapper {
+        min-height         : 100vh;
         background-image   : url(./background.jpg);
         background-position: center;
         background-repeat  : no-repeat;
@@ -58,6 +59,7 @@
 @media screen and (max-width: 400px) {
     .wrapper {
         background-image   : url(./background.jpg);
+        min-height         : 100vh;
         background-position: center;
         background-repeat  : no-repeat;
         background-size    : cover;

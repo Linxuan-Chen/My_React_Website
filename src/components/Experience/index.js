@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-23 16:10:35
- * @LastEditTime: 2020-09-28 13:26:49
+ * @LastEditTime: 2020-09-28 14:37:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Experience\index.js
@@ -31,8 +31,8 @@ function Experience(props) {
             </div>
             <div className="col-5 text-center">
               <section>
-                <h4>time</h4>
-                <h3>To be continued</h3>
+                <h5>time</h5>
+                <h4>To be continued</h4>
                 <p>Maybe we can reach the summit together!</p>
               </section>
             </div>
@@ -41,8 +41,8 @@ function Experience(props) {
           <div className="row">
             <div className="col-5 text-center">
               <NavLink to="/education" className={style.nav_link}>
-                <h4>time</h4>
-                <h3>Got Master Degree In Concordia University</h3>
+                <h5>time</h5>
+                <h4>Got Master Degree In Concordia University</h4>
                 <p>Maybe we can reach the summit together!</p>
               </NavLink>
             </div>
@@ -59,8 +59,8 @@ function Experience(props) {
             </div>
             <div className="col-5 text-center">
               <section>
-                <h4>time</h4>
-                <h3>ALIBABA GROUP</h3>
+                <h5>time</h5>
+                <h4>ALIBABA GROUP</h4>
                 <h5>Nanjing, China</h5>
                 <p>Maybe we can reach the summit together!</p>
               </section>
@@ -70,11 +70,11 @@ function Experience(props) {
           <div className="row">
             <div className="col-5 text-center">
               <NavLink to="/education" className={style.nav_link}>
-                <h4>time</h4>
-                <h3>
+                <h5>time</h5>
+                <h4>
                   Got Bachelor Degree In Nanjing University of Science and
                   Technology
-                </h3>
+                </h4>
                 <p>Maybe we can reach the summit together!</p>
               </NavLink>
             </div>
@@ -91,8 +91,8 @@ function Experience(props) {
             </div>
             <div className="col-5 text-center">
               <section>
-                <h4>time</h4>
-                <h3>Thought Works</h3>
+                <h5>time</h5>
+                <h4>Thought Works</h4>
                 <h5>Shanghai, China</h5>
                 <p>Maybe we can reach the summit together!</p>
               </section>
