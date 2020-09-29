@@ -9,7 +9,7 @@ export default function Education() {
     <div className={style.background}>
       <div className="container-fluid">
         <header className={style.header + " text-center pt-5"}>
-          Education
+          EDUCATION
         </header>
       </div>
       <div className="container">
@@ -25,6 +25,8 @@ export default function Education() {
               <div className="row">
                 <div className="col-12">
                   <h2>Master Of Engineering</h2>
+                  <h3>Concordia University</h3>
+                  <h5>Montreal, Quebec, Canada</h5>
                 </div>
                 <div className="col-12">
                   <h3>Electrical And Computer Engineering</h3>
@@ -36,51 +38,26 @@ export default function Education() {
             </div>
           </div>
           <section className="col-12">
-            <h2 className="text-center">Courses</h2>
+            <h2 className="text-center">COURSES</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              dolore pariatur aut, iusto aspernatur libero aliquid voluptates
-              officiis! Similique eos qui porro adipisci deserunt, sequi tempora
-              earum eum nam tempore. Facilis est culpa ea minus, voluptas nam
-              nemo odio numquam ipsum recusandae officia consequuntur delectus
-              similique explicabo et earum qui. Aliquam ex omnis accusantium
-              ullam, placeat hic itaque repudiandae quia. Maxime temporibus
-              nobis nulla expedita sit, laudantium a dolorem esse obcaecati
-              tenetur inventore molestiae placeat. Nesciunt quisquam minus earum
-              magni dolorem, perspiciatis, iusto eos recusandae tempora corrupti
-              deserunt nihil culpa! Tenetur veritatis, id quaerat tempore
-              aspernatur impedit ipsum accusamus vero aperiam cupiditate numquam
-              illum doloribus minima facere omnis esse expedita repellat illo
-              hic suscipit. Consequuntur dolores numquam explicabo nesciunt
-              minus! Delectus quia corrupti omnis explicabo similique facilis
-              sequi distinctio aut. Laboriosam maiores ab explicabo nesciunt,
-              exercitationem error placeat hic harum ex cumque aperiam eos omnis
-              iusto, magni tenetur in quod.
+              Acquired and applied knowledge of current and emerging high-level
+              software development practices, including system control
+              (optimization techniques, large system control, real time system
+              control, robotics), signal processing (digital signal processing,
+              medical image processing, digital video processing), and
+              microprocessing.
             </p>
           </section>
           <section className="col-12">
-            <h2 className="text-center">Projects</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              veniam quo neque maxime necessitatibus impedit, laborum modi
-              blanditiis rem aliquam aspernatur debitis sit, porro id eveniet?
-              Velit, repellendus? Repudiandae, dolore! Corporis possimus cumque
-              repudiandae doloremque modi cupiditate cum nostrum quasi
-              perspiciatis. Fugiat cupiditate nam doloremque ipsa repellendus,
-              animi velit itaque, quisquam iste delectus odio sequi alias
-              asperiores in vel. Facilis! Quam eum, earum, quibusdam facilis
-              repudiandae minima vitae ut non eveniet obcaecati adipisci saepe
-              repellat assumenda hic voluptate iste veniam magni doloremque ex
-              est unde consequuntur sunt? Sapiente, expedita optio? Provident
-              nesciunt reiciendis molestiae magnam hic perferendis consectetur
-              dolore placeat a iusto repudiandae rerum quo accusamus quod nulla
-              ut temporibus, tempore laboriosam harum assumenda. Reiciendis
-              doloribus tempore inventore! Ipsam, expedita! Accusantium officiis
-              iusto quia minus est. Ipsam recusandae rerum id amet, blanditiis
-              animi voluptatibus nulla quas sapiente esse reprehenderit error
-              quam mollitia reiciendis perspiciatis totam earum quibusdam nihil
-              deserunt. Enim.
-            </p>
+            <h2 className="text-center">PROJECTS</h2>
+            <ul>
+              <li>
+                Prototyped smart parking system using ARM microprocessor in team
+                of 4.
+              </li>
+              <li>Built filter for denoising ultrasound images. </li>
+              <li>Developed specific object tracking system. </li>
+            </ul>
           </section>
         </article>
         <div className={style.dividing_line}></div>
@@ -97,6 +74,8 @@ export default function Education() {
                   <h2>Bachelor Of Engineering</h2>
                 </div>
                 <div className="col-12">
+                  <h3>Nanjing University of Science and Technology</h3>
+                  <h5>Nanjing, Jiangsu Province, China</h5>
                   <h3>Electrical Engineering And Automation</h3>
                 </div>
                 <div className="col-12">
@@ -106,51 +85,17 @@ export default function Education() {
             </div>
           </div>
           <section className="col-12">
-            <h2 className="text-center">Courses</h2>
+            <h2 className="text-center">COURSES</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              dolore pariatur aut, iusto aspernatur libero aliquid voluptates
-              officiis! Similique eos qui porro adipisci deserunt, sequi tempora
-              earum eum nam tempore. Facilis est culpa ea minus, voluptas nam
-              nemo odio numquam ipsum recusandae officia consequuntur delectus
-              similique explicabo et earum qui. Aliquam ex omnis accusantium
-              ullam, placeat hic itaque repudiandae quia. Maxime temporibus
-              nobis nulla expedita sit, laudantium a dolorem esse obcaecati
-              tenetur inventore molestiae placeat. Nesciunt quisquam minus earum
-              magni dolorem, perspiciatis, iusto eos recusandae tempora corrupti
-              deserunt nihil culpa! Tenetur veritatis, id quaerat tempore
-              aspernatur impedit ipsum accusamus vero aperiam cupiditate numquam
-              illum doloribus minima facere omnis esse expedita repellat illo
-              hic suscipit. Consequuntur dolores numquam explicabo nesciunt
-              minus! Delectus quia corrupti omnis explicabo similique facilis
-              sequi distinctio aut. Laboriosam maiores ab explicabo nesciunt,
-              exercitationem error placeat hic harum ex cumque aperiam eos omnis
-              iusto, magni tenetur in quod.
+              Aquired knowledge of general programming and front-end essential
+              skills.
             </p>
           </section>
           <section className="col-12">
-            <h2 className="text-center">Projects</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              veniam quo neque maxime necessitatibus impedit, laborum modi
-              blanditiis rem aliquam aspernatur debitis sit, porro id eveniet?
-              Velit, repellendus? Repudiandae, dolore! Corporis possimus cumque
-              repudiandae doloremque modi cupiditate cum nostrum quasi
-              perspiciatis. Fugiat cupiditate nam doloremque ipsa repellendus,
-              animi velit itaque, quisquam iste delectus odio sequi alias
-              asperiores in vel. Facilis! Quam eum, earum, quibusdam facilis
-              repudiandae minima vitae ut non eveniet obcaecati adipisci saepe
-              repellat assumenda hic voluptate iste veniam magni doloremque ex
-              est unde consequuntur sunt? Sapiente, expedita optio? Provident
-              nesciunt reiciendis molestiae magnam hic perferendis consectetur
-              dolore placeat a iusto repudiandae rerum quo accusamus quod nulla
-              ut temporibus, tempore laboriosam harum assumenda. Reiciendis
-              doloribus tempore inventore! Ipsam, expedita! Accusantium officiis
-              iusto quia minus est. Ipsam recusandae rerum id amet, blanditiis
-              animi voluptatibus nulla quas sapiente esse reprehenderit error
-              quam mollitia reiciendis perspiciatis totam earum quibusdam nihil
-              deserunt. Enim.
-            </p>
+            <h2 className="text-center">PROJECTS</h2>
+            <ul>
+              <li>Built a stereo parking system utilizing PLC.</li>
+            </ul>
           </section>
         </article>
       </div>

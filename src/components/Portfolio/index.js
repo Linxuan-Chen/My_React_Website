@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-27 17:21:28
- * @LastEditTime: 2020-09-28 21:47:46
+ * @LastEditTime: 2020-09-29 16:14:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Portfolio\index.js
@@ -24,11 +24,11 @@ export default function Portfolio() {
     <div className={style.wrapper + " container-fluid"}>
       <div className="container">
         <div className={style.innerWrapper}>
-          <header className="h1 text-center">Portfolio</header>
+          <header className="h1 text-center pt-5">PORTFOLIO</header>
           <h4 className="text-center">
             My Latest Work. Swipe To Discover More.
           </h4>
-          <h4 className="text-center">Or Visit My GitHub on</h4>
+          <h4 className="text-center">Visit My GitHub On</h4>
           <h4 className="text-center">
             <a href="https://github.com/Linxuan-Chen">
               https://github.com/Linxuan-Chen
@@ -44,15 +44,17 @@ export default function Portfolio() {
                 pagination={{ clickable: true }}
               >
                 <SwiperSlide>
-                  <h4 className="text-center">
-                    <a
-                      href="https://linxuan-chen.github.io/To-Do-List/"
-                      className="d-flex justify-content-center align-items-center"
-                    >
+
+                  <a
+                    href="https://linxuan-chen.github.io/To-Do-List/"
+                    className="d-flex justify-content-center align-items-center"
+                  >
+                    <h3 className="text-center">
                       A simple to do list with multiple functions built by
                       React.
-                    </a>
-                  </h4>
+                      </h3>
+                  </a>
+
                   <div className="row">
                     <div className="col text-center">
                       <img
@@ -68,11 +70,11 @@ export default function Portfolio() {
                     href="https://linxuan-chen.github.io/EduWork/"
                     className="d-flex justify-content-center align-items-center"
                   >
-                    <h4 className="text-center">
-                      A simple to do list with multiple functions built by
-                      React.
-                    </h4>
+                    <h3 className="text-center">
+                      Remade Homepage of Eduwork Institution
+                      </h3>
                   </a>
+
                   <div className="row">
                     <div className="col text-center">
                       <img
@@ -94,6 +96,6 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
