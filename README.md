@@ -12,6 +12,7 @@ https://linxuan-chen.github.io/My_React_Website/#/
 ## Built With
 
 * [React](https://reactjs.org/) - web framework
+* [React-Router](https://reactjs.org/) - web router
 * [Redux](https://redux.js.org/) - Data storage
 * [Bootstrap](https://getbootstrap.com/) style sheets
 * [React-Bootstrap](https://react-bootstrap.github.io/)  style-sheets
