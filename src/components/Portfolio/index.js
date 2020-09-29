@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-27 17:21:28
- * @LastEditTime: 2020-09-27 21:39:27
+ * @LastEditTime: 2020-09-28 21:47:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Portfolio\index.js
@@ -28,8 +28,8 @@ export default function Portfolio() {
           <h4 className="text-center">
             My Latest Work. Swipe To Discover More.
           </h4>
+          <h4 className="text-center">Or Visit My GitHub on</h4>
           <h4 className="text-center">
-            Or Visit My GitHub on &nbsp;
             <a href="https://github.com/Linxuan-Chen">
               https://github.com/Linxuan-Chen
             </a>

@@ -1,6 +1,7 @@
 @media screen and (min-width: 400px) {
     .wrapper {
         min-height         : 100vh;
+        width              : calc(100% - 30px);
         background-image   : url(./background.jpg);
         background-position: center;
         background-repeat  : no-repeat;
@@ -13,18 +14,14 @@
         }
 
         header {
-            font-size              : 4rem;
-            padding-top            : 15%;
-            padding-bottom         : 5%;
-            background-image       : linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            color                  : transparent;
-            background-clip        : text;
+            font-size     : 4rem;
+            padding-top   : 15%;
+            padding-bottom: 5%;
+            color         : #ffffff;
         }
 
         a {
-            text-decoration: none;
+            text-decoration: underline;
             color          : rgb(252, 179, 71);
 
             &:hover {
@@ -60,6 +57,7 @@
     .wrapper {
         background-image   : url(./background.jpg);
         min-height         : 100vh;
+        width              : calc(100% - 30px);
         background-position: center;
         background-repeat  : no-repeat;
         background-size    : cover;
@@ -71,14 +69,10 @@
         }
 
         header {
-            font-size              : 4rem;
-            padding-top            : 15%;
-            padding-bottom         : 5%;
-            background-image       : linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            color                  : transparent;
-            background-clip        : text;
+            font-size     : 4rem;
+            padding-top   : 15%;
+            padding-bottom: 5%;
+            color         : #ffffff;
         }
 
         a {
