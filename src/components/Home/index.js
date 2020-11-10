@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-22 20:38:05
- * @LastEditTime: 2020-11-10 13:25:21
+ * @LastEditTime: 2020-11-10 14:00:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Home\index.js
@@ -41,7 +41,11 @@ export default function Home() {
               methodologies.
             </li>
           </ul>
-          <h2 className="text-center">PROFESSIONAL SKILLS</h2>
+          <h2 className="text-center" style={
+            {
+              fontWeight: "bolder"
+            }
+          }>PROFESSIONAL SKILLS</h2>
           <div className="row">
             <div className="col-4 text-center h5">HTML5</div>
             <div className="col-8 pt-1">

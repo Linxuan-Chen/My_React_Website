@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-27 17:21:28
- * @LastEditTime: 2020-09-29 16:14:23
+ * @LastEditTime: 2020-11-10 14:14:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Portfolio\index.js
@@ -43,34 +43,13 @@ export default function Portfolio() {
                 navigation
                 pagination={{ clickable: true }}
               >
-                <SwiperSlide>
 
-                  <a
-                    href="https://linxuan-chen.github.io/To-Do-List/"
-                    className="d-flex justify-content-center align-items-center"
-                  >
-                    <h3 className="text-center">
-                      A simple to do list with multiple functions built by
-                      React.
-                      </h3>
-                  </a>
-
-                  <div className="row">
-                    <div className="col text-center">
-                      <img
-                        className={style.img}
-                        src="assets/portfolio/To-Do-List.png"
-                        alt="To Do List Snapshot"
-                      />
-                    </div>
-                  </div>
-                </SwiperSlide>
                 <SwiperSlide>
                   <a
                     href="https://linxuan-chen.github.io/EduWork/"
                     className="d-flex justify-content-center align-items-center"
                   >
-                    <h3 className="text-center">
+                    <h3 className="text-center pt-5">
                       Remade Homepage of Eduwork Institution
                       </h3>
                   </a>
@@ -81,6 +60,26 @@ export default function Portfolio() {
                         className={style.img}
                         src="assets/portfolio/Eduwork.png"
                         alt="Eduwork website snapshot"
+                      />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <a
+                    href="https://linxuan-chen.github.io/To-Do-List/"
+                    className="d-flex justify-content-center align-items-center"
+                  >
+                    <h3 className="text-center pt-5">
+                      A Simple To-Do-List With Multiple Functions
+                      </h3>
+                  </a>
+
+                  <div className="row">
+                    <div className="col text-center">
+                      <img
+                        className={style.img}
+                        src="assets/portfolio/To-Do-List.png"
+                        alt="To Do List Snapshot"
                       />
                     </div>
                   </div>

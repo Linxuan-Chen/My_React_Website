@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-27 17:23:34
- * @LastEditTime: 2020-11-10 13:12:20
+ * @LastEditTime: 2020-11-10 14:05:45
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Contact\index.js
@@ -33,7 +33,7 @@ export default function Contact() {
             <div className="media-body text-center pl-5 pt-3">
               <div className="row">
                 <div className="col-12">
-                  <h2>Cell Phone</h2>
+                  <h5>Cell Phone</h5>
                 </div>
                 <div className="col-12">
                   <h5>514 - (663) 8404</h5>
@@ -53,7 +53,7 @@ export default function Contact() {
             <div className="media-body text-center pl-5 pt-3">
               <div className="row">
                 <div className="col-12">
-                  <h2>Email</h2>
+                  <h5>Email</h5>
                 </div>
                 <div className="col-12">
                   <h5 className="d-none d-lg-block">
@@ -76,7 +76,7 @@ export default function Contact() {
             <div className="media-body text-center pl-5 pt-3">
               <div className="row">
                 <div className="col-12">
-                  <h2>GitHub</h2>
+                  <h5>GitHub</h5>
                 </div>
                 <div className="col-12">
                   <h5 className="d-none d-lg-block">
@@ -111,7 +111,7 @@ export default function Contact() {
             <div className="media-body text-center pl-5 pt-3">
               <div className="row">
                 <div className="col-12">
-                  <h2>LinkedIn</h2>
+                  <h5>LinkedIn</h5>
                 </div>
                 <div className="col-12">
                   <h5 className="d-none d-lg-block">
@@ -146,11 +146,11 @@ export default function Contact() {
             <div className="media-body text-center pl-5 pt-3">
               <div className="row">
                 <div className="col-12">
-                  <h2>Resume</h2>
+                  <h5>Resume</h5>
                 </div>
                 <div className="col-12">
                   <a
-                    href="https://github.com/Linxuan-Chen/My_React_Website/raw/gh-pages/assets/resume/RESUME.pdf"
+                    href="https://github.com/Linxuan-Chen/My_React_Website/raw/gh-pages/assets/resume/Linxuan%20Chen%20-%20Resume.pdf"
                     className="text-info"
                   >
                     <h5>Click Here To Download My Resume!</h5>
