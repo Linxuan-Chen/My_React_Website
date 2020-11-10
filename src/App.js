@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-22 18:34:21
- * @LastEditTime: 2020-09-27 20:11:11
+ * @LastEditTime: 2020-11-10 12:04:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\App.js
@@ -16,7 +16,7 @@ import Routes from "./router/Routes";
 function App(props) {
   const [isNavBarShow, setIsNavBarShow] = useState(true);
   useEffect(() => {
-    props.scrollPosition.scrollPosition >= 600
+    props.scrollPosition.scrollPosition >= 500
       ? setIsNavBarShow(false)
       : setIsNavBarShow(true);
   }, [props.scrollPosition.scrollPosition]);

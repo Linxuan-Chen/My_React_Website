@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-27 17:23:34
- * @LastEditTime: 2020-09-28 14:42:13
+ * @LastEditTime: 2020-11-10 13:12:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \repository\My_React_Website\src\components\Contact\index.js
@@ -17,7 +17,7 @@ export default function Contact() {
     <div className={style.background}>
       <div className="container-fluid">
         <header className={style.header + " text-center pt-5"}>Contact</header>
-        <footer className="h4 text-center">
+        <footer className="h5 text-center">
           If you are interested in me, please don't hesitate to contact me!
         </footer>
       </div>

@@ -1,7 +1,10 @@
 .background {
-    background-image: linear-gradient(to bottom, #ffffff 0%, #e2d1c3 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, #b9d8fa 200%);
 }
 
 .introduction {
-    list-style: none;
+    // list-style: none;
+    position: relative;
+    left    : 20px;
+    color   : #4d4f50;
 }

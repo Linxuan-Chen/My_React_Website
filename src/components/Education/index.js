@@ -21,7 +21,7 @@ export default function Education() {
               src="assets/education/concordia_logo.png"
               alt="Concordia Logo"
             />
-            <div className="media-body text-left pl-5 pt-3">
+            <div className="media-body text-left pl-4 pt-3">
               <div className="row">
                 <div className="col-12">
                   <h2>Master Of Engineering</h2>
@@ -52,11 +52,64 @@ export default function Education() {
             <h2 className="text-center">PROJECTS</h2>
             <ul>
               <li>
-                Prototyped smart parking system using ARM microprocessor in team
-                of 4.
+                Prototyped smart parking system using ARM microprocessor which
+                is a real model composed with ARM microprocessor, RFID system,
+                laser sensors, LED screens and motors. It uses RFID system to
+                inquiry users’ account, microprocessor to find the best slot, to
+                check the account status and to control LED screen and motors.
               </li>
-              <li>Built filter for denoising ultrasound images. </li>
-              <li>Developed specific object tracking system. </li>
+              <li>
+                Experience with building responsive website with frameworks like
+                bootstrap or with CSS media query to enhance mobile user’s
+                experience.{" "}
+              </li>
+              <li>
+                Completed some open source projects on my own on GitHub. All of
+                them are responsive and are friendly to mobile users.
+                <ul className={style.sublist}>
+                  <li className="justify-content-between">
+                    Rebuilt the homepage of Eduwork institution using React,
+                    React-Router, Redux, Bootstrap, Sass and DPlayer.
+                    <a
+                      className="pl-3 text-info"
+                      href="https://linxuan-chen.github.io/EduWork/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DEMO
+                    </a>
+                  </li>
+                  <li>
+                    Constructed my personal website using React, React-Router,
+                    Bootstrap, React-Bootstrap, Module CSS, Sass and Swiper.js.
+                    <a
+                      className="pl-3 text-info"
+                      href="https://linxuan-chen.github.io/My_React_Website/#/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DEMO
+                    </a>
+                  </li>
+                  <li>
+                    Completed a demo of to do list using React, React-Router,
+                    Redux and Sass.
+                    <a
+                      className="pl-3 text-info"
+                      href="https://linxuan-chen.github.io/To-Do-List/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DEMO
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>Built filter for denoising ultrasound images by MATLAB.</li>
+              <li className="pb-3">
+                Developed a system for tracking specific targets in videos using
+                MATLAB.
+              </li>
             </ul>
           </section>
         </article>
@@ -68,7 +121,7 @@ export default function Education() {
               src="assets/education/NUST.png"
               alt="Concordia Logo"
             />
-            <div className="media-body text-left pl-5 pt-3">
+            <div className="media-body text-left pl-4 pt-3">
               <div className="row">
                 <div className="col-12">
                   <h2>Bachelor Of Engineering</h2>
